@@ -1,1 +1,9 @@
-cloud/*.pdf
+# Ignore macOS system files
+.DS_Store
+.DS_*
+
+# Ignore Git metadata
+/.gitignore
+
+# Ignore Git Large File Storage metadata (if used)
+.gitattributes
